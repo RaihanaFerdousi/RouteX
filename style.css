@@ -16,6 +16,7 @@
 
 header{
     margin: 30px  60px;
+    margin-bottom: 100px;
 }
 
 /* nav styles */
@@ -72,6 +73,7 @@ ul li{
     border-radius: 20px;
     display: flex;
     text-align: center;
+    justify-content: center;
     background-image: url('/image/Frame\ 8365.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -87,30 +89,141 @@ ul li{
 
 .banner-btns{
     display: flex;
-    gap: 30px;
     justify-content: center;
+
+}
+
+/* main styles */
+
+/* about us section styles */
+
+.about-container{
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.text-primary{
+    color: #034833;
+    font-weight: 600;
+}
+
+.about-title{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.description{
+    font-weight: 400;
+    margin: 10px 0;
+    white-space: pre-line;
+}
+
+.safety{
+    margin-top: 35px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.safety-card{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #8d8d8d;
+    padding: 25px;
+    border-radius: 18px;
 }
 
 
+.safety-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.passport-icon{
+    background-color: #83CD20;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.passport-icon img{
+    height: 30px;
+    width: 30px;
+}
+
+.safety-detail{
+    display: flex;
+    font-weight: 400;
+    color: #727272;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.img-container{
+    display: flex;
+    gap: 20px;
+}
+
+.img-1{
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.img-2{
+    width: 220px;
+    height: 380px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.experience{
+    display: flex;
+    background-color: #83CD20;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+}
+
 .read-btn{
     background-color: transparent;
-    border: solid 1px white;
-    color: white;
-    padding: 12px 20px;
-    border-radius: 20px;
+    border: solid 1px #83CD20;
+    color: #034833;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+
+.btn-container{
+    display: flex;
+    gap: 30px;
 }
 
 
 .video-btn{
     display: flex;
-    background-color: #034833;
+    background-color: transparent;
     border: none;
     align-items: center;
-    color: white;
+    color: #034833;
     gap: 10px;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .video-btn img{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: #83CD20;
+    padding: 10px;
+    border-radius: 30px;
 }
