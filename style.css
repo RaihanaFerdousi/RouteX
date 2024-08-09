@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.plus-jakarta-sans-font {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+
+header{
+    margin: 30px  60px;
+}
+
+/* nav styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+
+.nav-brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-title{
+    color: #034833;
+}
+
+ul {
+    display: flex;
+    color: #034833;
+    gap: 15px;
+    list-style: none;
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+.btn{
+    background-color: #83CD20;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    white-space: nowrap;
+    gap: 10px;
+}
+
+/* banner style */
+
+.banner{
+    background-color: #034833;
+    padding: 150px;
+    color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    background-image: url('/image/Frame\ 8365.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.banner-title{
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+.banner-btns{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.read-btn{
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+
+
+.video-btn{
+    display: flex;
+    background-color: #034833;
+    border: none;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.video-btn img{
+    width: 30px;
+    height: 30px;
+}
