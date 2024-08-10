@@ -12,6 +12,30 @@
     padding: 0;
 }
 
+/* shared styles */
+
+.description{
+    font-weight: 400;
+    color: #727272;
+    margin: 10px 0;
+    white-space: pre-line;
+}
+
+
+.subtitle{
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    color: #034833;
+    gap: 10px;
+}
+
+.title{
+    margin-top: 10px;
+    font-size: 35px;
+    color: #034833;
+}
+
 /* header styles */
 
 header{
@@ -126,11 +150,6 @@ ul li{
     margin-top: 10px;
 }
 
-.description{
-    font-weight: 400;
-    margin: 10px 0;
-    white-space: pre-line;
-}
 
 
 /* img container */
@@ -263,19 +282,6 @@ ul li{
     gap: 20pc;
 }
 
-.memories-subtitle{
-    align-items: center;
-    display: flex;
-    font-weight: 400;
-    color: #034833;
-    gap: 10px;
-}
-
-.memories-title{
-    margin-top: 10px;
-    font-size: 35px;
-    color: #034833;
-}
 
 /* arrows */
 .arrows {
@@ -320,7 +326,7 @@ ul li{
     height: 330px;
 }
 
-.visa-container {
+.card-container {
     position: relative;
     background-image: url('image/memories-3.jpg');
     background-position: center;
@@ -331,7 +337,7 @@ ul li{
     border-radius: 15px;
 }
 
-.visa-card {
+.card {
     position: absolute;
     bottom: 19px;
     left: 19px;
@@ -360,3 +366,71 @@ ul li{
     font-weight: bold;
     cursor: pointer;
 }
+
+
+/* visa catagoreay */
+
+.visa-catagory{
+    margin: 0 100px;
+    margin-bottom: 100px;
+
+}
+.visa-titles{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.visa-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.visa-card{
+    display: flex;
+    border: solid 1px #727272;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 30px;
+    align-items: center;
+}
+
+.visa-img img{
+    width: 250px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.visa-card-title{
+    font-size: 20px;
+    color: #034833;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.group button{
+    padding: 12px;
+    border-radius: 20px;
+    border: solid 1px #83CD20;
+    background-color: transparent;
+}
+
+.group button img{
+    width: 25px;
+    height: 25px;
+}
+
+.group img{
+    width: 45px;
+    height: 45px;
+}
+
