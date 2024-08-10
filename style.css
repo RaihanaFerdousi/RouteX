@@ -319,3 +319,44 @@ ul li{
     border-radius: 15px;
     height: 330px;
 }
+
+.visa-container {
+    position: relative;
+    background-image: url('image/memories-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 330px;
+    height: 330px;
+    border-radius: 15px;
+}
+
+.visa-card {
+    position: absolute;
+    bottom: 19px;
+    left: 19px;
+    right: 0;
+    background-color: #83CD20;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 130px;
+}
+
+.card-title, .card-description, .card-btn {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card-description{
+    font-weight: 400;
+}
+
+.card-btn {
+    padding: 10px 15px;
+    border: solid 1px white;
+    background-color: transparent;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
