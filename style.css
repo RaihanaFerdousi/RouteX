@@ -95,9 +95,9 @@ ul li{
 
 /* main styles */
 
-/* about us section styles */
+/* chose us section styles */
 
-.about-container{
+.chose-us-container{
     margin: 0 100px;
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@ ul li{
     font-weight: 600;
 }
 
-.about-title{
+.chose-us-title {
     font-size: 35px;
     margin-bottom: 20px;
     font-weight: bold;
@@ -122,50 +122,8 @@ ul li{
     white-space: pre-line;
 }
 
-.safety{
-    margin-top: 35px;
-    display: flex;
-    gap: 30px;
-    margin-bottom: 20px;
-}
 
-.safety-card{
-    display: flex;
-    flex-direction: column;
-    border: solid 1px #8d8d8d;
-    padding: 25px;
-    border-radius: 18px;
-}
-
-
-.safety-title{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-
-.passport-icon{
-    background-color: #83CD20;
-    padding: 10px;
-    border-radius: 30px;
-}
-
-.passport-icon img{
-    height: 30px;
-    width: 30px;
-}
-
-.safety-detail{
-    display: flex;
-    font-weight: 400;
-    color: #727272;
-    gap: 10px;
-    align-items: center;
-    margin-bottom: 10px;
-    white-space: nowrap;
-}
+/* img container */
 
 .img-container{
     display: flex;
@@ -186,14 +144,60 @@ ul li{
     margin-top: 20px;
 }
 
-.experience{
+/* travel */
+
+.travel{
+    margin-top: 35px;
     display: flex;
-    background-color: #83CD20;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+
+.travel-card{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #8d8d8d;
+    padding: 25px;
+    border-radius: 18px;
+}
+
+
+.travel-title{
+    display: flex;
     align-items: center;
-    gap: 15px;
-    padding: 20px;
-    color: white;
-    border-radius: 15px;
+    gap: 10px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.passport-icon{
+    background-color: #83CD20;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.passport-icon img{
+    height: 30px;
+    width: 30px;
+}
+
+
+.travel-detail{
+    display: flex;
+    font-weight: 400;
+    color: #727272;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+/* btn-container */
+
+.btn-container{
+    display: flex;
+    gap: 30px;
 }
 
 .read-btn{
@@ -203,12 +207,6 @@ ul li{
     padding: 20px 20px;
     border-radius: 30px;
 }
-
-.btn-container{
-    display: flex;
-    gap: 30px;
-}
-
 
 .video-btn{
     display: flex;
@@ -227,4 +225,87 @@ ul li{
     background-color: #83CD20;
     padding: 10px;
     border-radius: 30px;
+}
+
+/* company logos */
+
+.company-logos{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 50px;
+}
+
+/* memories section */
+
+.memories-section{
+    
+    margin: 0 40px;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+/* memories-titles */
+
+.memories-titles{
+    display: flex;  
+    align-items: end;
+    gap: 20pc;
+}
+
+.memories-subtitle{
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    color: #034833;
+    gap: 10px;
+}
+
+.memories-title{
+    margin-top: 10px;
+    font-size: 35px;
+    color: #034833;
+}
+
+/* arrows */
+.arrows {
+    display: flex;
+    gap: 20px;
+}
+
+.arrow-1, .arrow-2 {
+    padding: 15px;
+    border-radius: 30px;
+    display: inline-block; 
+}
+
+.arrow-1{
+    border: solid 1px #83CD20 !important;
+}
+
+.arrow-2 {
+    background-color: #83CD20;
+}
+
+/* memories-images */
+
+.memories-images{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+
+.memories{
+    width: 230px;
+    height: 330px;
+    border-radius: 15px;
+}
+
+.memories-diffrent{
+    width: 300px;
+    border-radius: 15px;
+    height: 330px;
 }
