@@ -434,3 +434,39 @@ ul li{
     height: 45px;
 }
 
+/* country */
+
+.countrys{
+    margin: 0 100px;
+    margin-bottom: 100px;
+}
+
+.title-container{
+    display: flex;
+    gap: 500px;
+    margin-bottom: 60px;
+}
+
+.country-cards{
+    display: flex;
+    gap: 30px;
+}
+
+.country{
+    padding: 30px;
+    border: solid 1px #b4b4b3;
+    border-radius: 20px;
+}
+
+.country-flag {
+    width: 60px;
+    height: 60px; /* Make sure height is also 70px */
+    border-radius: 50%; /* Use 50% to make it a circle */
+}
+
+.travel-details-list{
+    margin-top: 20px;    
+}
+.travel-details-list p{
+    margin-bottom: 10px;    
+}
