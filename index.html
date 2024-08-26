@@ -4,190 +4,194 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>RouteX</title>
 </head>
-<body class="plus-jakarta-sans-font">
-    <header>
-        <nav>
-            <div class="nav-brand">
+<body class="plus-jakarta-sans-font bg-[#e9e9e9]">
+    <header class="mb-24 mx-20">
+        <nav class="flex items-center justify-around mt-5">
+            <div class="flex items-center gap-2">
                 <img src="icons/Logo.png" alt="Logo">
-                <h3 class="nav-title">RouteX</h3>
+                <h3 class="text-[#034833]">RouteX</h3>
             </div>
-            <ul>
-                <li>Home <img src="icons/1.png" alt=""></li>
-                <li>About Us <img src="icons/1.png" alt=""></li>
-                <li>Services <img src="icons/1.png" alt=""></li>
-                <li>Projects <img src="icons/1.png" alt=""></li>
-                <li>Blog <img src="icons/1.png" alt=""></li>
-                <li>Page <img src="icons/1.png" alt=""></li>
-                <li>Contact <img src="icons/1.png" alt=""></li>
+            <ul class="flex text-[#034833] list-none gap-6">
+                <li class="flex items-center gap-2">Home <img src="icons/1.png" alt=""></li>
+                <li class="flex items-center gap-2">About Us <img src="icons/1.png" alt=""></li>
+                <li class="flex items-center gap-2">Services <img src="icons/1.png" alt=""></li>
+                <li class="flex items-center gap-2">Projects <img src="icons/1.png" alt=""></li>
+                <li class="flex items-center gap-2">Blog <img src="icons/1.png" alt=""></li>
+                <li class="flex items-center gap-2">Page <img src="icons/1.png" alt=""></li>
+                <li class="flex items-center gap-2">Contact <img src="icons/1.png" alt=""></li>
             </ul>
-            <button class="btn">Get An Appointment <img src="image/arrow.png" alt=""></button>
+            <button class="bg-[#83CD20] px-5 py-4 rounded-full text-white flex items-center">Get An Appointment <img src="image/arrow.png" alt=""></button>
         </nav>
-        <div class="banner">
+        <div class="banner bg-[#034833] p-40 text-white mt-8 flex text-center justify-center bg-no-repeat bg-center bg-cover rounded-2xl">
             <div>
-                <h1 class="banner-title">Visa Made Easy Dreams <br> <span style="color: #83CD20;">Made Possible</span></h1>
-                <p class="description" style="margin-bottom: 20px; color: white;">
+                <h1 class="mb-5 text-5xl font-bold">Visa Made Easy Dreams <br> <span style="color: #83CD20;">Made Possible</span></h1>
+                <p class="font-normal text-gray-600 whitespace-pre-line font-semibold" style="margin-bottom: 20px; color: white;">
                     Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Sed sit amet arcu nunc. Duis egestas ac ante sed tincidunt.
                 </p>
-                <div class="banner-btns">
-                    <button class="btn">Read More <img src="image/arrow.png" alt=""></button>
+                <div class="flex justify-center"> 
+                    <button class="bg-[#83CD20] px-5 py-4 rounded-full text-white flex items-center">Read More <img src="image/arrow.png" alt=""></button>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="chose-us-container">
-            <div class="img-container">
+        <section class="flex items-center mx-20 justify-center">
+            <div class="flex gap-10 w-1/2">
                 <div>
-                    <img class="img-1" src="image/pexels-jyju-jossey-434389812-25849056.jpg" alt="">
+                    <img class="w-48 h-64 mb-5 rounded-2xl" src="image/pexels-jyju-jossey-434389812-25849056.jpg" alt="">
                     <img src="icons/Group 1000007977.png" alt="">
                 </div>
                 <div>
-                    <div class="experience">
-                        <h1>25</h1>
-                        <p>Years Of experience</p>
+                    <div class="flex bg-[#83CD20] rounded-2xl gap-4 items-center p-5 text-white">
+                        <h1 class="text-4xl">25</h1>
+                        <p>Years Of <br> experience</p>
                     </div>
-                    <img class="img-2" src="image/pexels-jyju-jossey-434389812-25849056.jpg" alt="">
+                    <img class="w-56 mt-5 h-96 rounded-2xl" src="image/pexels-jyju-jossey-434389812-25849056.jpg" alt="">
                 </div>
             </div>
-            <div>
-                <p class="text-primary"> <img src="icons/Frame.png" alt=""> Why Choose Us</p>
-                <h2 class="chose-us-title">Where Wanderlust Meets <br><span class="text-primary"> Dream Destinations </span></h2>
-                <p class="description">
+            <div class="w-1/2">
+                <p class="text-[#034833] font-semibold flex gap-4"><img src="icons/Frame.png" alt=""> Why Choose Us</p>
+                <h2 class="text-4xl mb-5 font-bold mt-2">Where Wanderlust Meets <br><span class="text-[#034833] font-semibold"> Dream Destinations </span></h2>
+                <p class="font-normal text-gray-600 whitespace-pre-line font-semibold">
                     Et purus duis sollicitudin dignissim habitant. Egestas nulla quis venenatis cras sed eu massa Et purus duis sollicitudin dignissim habitant. Egestas nulla quis venenatis cras sed eu massa Et purus duis sollicitudin dignissim habitant. Egestas nulla
                 </p>
-                <div class="travel">
-                    <div class="travel-card">
-                        <h3 class="travel-title text-primary">
-                            <img class="passport-icon" src="icons/006-browser.png" alt="Passport Plus Icon">
+                <div class="mt-8 flex mb-5 gap-8">
+                    <div class="flex flex-col p-6 rounded-2xl border-2 border-[#8d8d8d]">
+                        <h3 class="flex items-center font-bold mb-4 gap-5 text-[#034833] font-semibold">
+                            <img class="bg-[#83CD20] p-2 rounded-2xl" src="icons/006-browser.png" alt="Passport Plus Icon">
                             Passport Plus
                         </h3>
-                        <p class="travel-detail">
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
                             <img src="icons/check.png" alt="Check Icon">
                             Beyond Border Immigration
                         </p>
-                        <p class="travel-detail">
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
                             <img src="icons/check.png" alt="Check Icon">
                             Beyond Border Immigration
                         </p>
                     </div>
-                    <div class="travel-card">
-                        <h3 class="travel-title text-primary">
-                            <img class="passport-icon" src="icons/007-refugee camp.png" alt="Passport Plus Icon">
+                    <div class="flex flex-col p-6 rounded-2xl border-2 border-[#8d8d8d]">
+                        <h3 class="flex items-center font-bold mb-4 gap-5 text-[#034833] font-semibold">
+                            <img class="bg-[#83CD20] p-2 rounded-2xl" src="icons/007-refugee camp.png" alt="Passport Plus Icon">
                             Global Entry
                         </h3>
-                        <p class="travel-detail">
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
                             <img src="icons/check.png" alt="Check Icon">
                             Beyond Border Immigration
                         </p>
-                        <p class="travel-detail">
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
                             <img src="icons/check.png" alt="Check Icon">
                             Beyond Border Immigration
                         </p>
                     </div>
                 </div>
-                <div class="btn-container">
-                    <button class="read-btn">Read More <img src="icons/ (1).png" alt=""></button>
-                    <button class="video-btn"><img src="icons/call-icon.png" alt=""><span style="font-weight: 400;">Need help?</span> (808) 555-0111</button>
+                <div class="flex gap-10">
+                    <button class="bg-transparent border-2 flex items-center gap-2 px-10 py-3 border-[#83CD20] rounded-full text-lg text-[#034833]">Read More <img src="icons/.png" alt=""></button>
+
+                    <button class="flex  items-center bg-transparent border-none text-[#034833] gap-5 text-lg">
+                        <img class="w-10 h-10  bg-[#83CD20] p-5 rounded-full" src="icons/call-icon.png" alt=""><span style="font-weight: 400;">Need help?</span> (808) 555-0111</button>
                 </div>
             </div>
         </section>
 
         <section>
-            <div class="company-logos">
+            <div class="flex justify-center gap-20 mt-24">
                 <img src="icons/Company logo-1.png" alt="">
                 <img src="icons/Company logo-2.png" alt="">
                 <img src="icons/Company logo-3.png" alt="">
                 <img src="icons/Company logo-4.png" alt="">
                 <img src="icons/Company logo-5.png" alt="">
             </div>
-            <div class="memories-section">
-                <div class="memories-titles">
+            <div class="rounded-2xl my-20 p-24 ">
+                <div class="flex items-end gap-10 justify-between">
                     <div>
-                        <p class="subtitle"><img src="icons/Frame.png" alt=""> Our Countries</p>
-                        <h1 class="title">Making Memories Around World Unforgettable</h1>
+                        <p class="items-center flex text-[#034833] gap-5"><img src="icons/Frame.png" alt=""> Our Countries</p>
+                        <h1 class="mt-2 text-4xl text-[#034833] font-bold w-[500px]">Making Memories Around World Unforgettable</h1>
                     </div>
-                    <div class="arrows">
-                        <img class="arrow-1" src="icons/arrow-left.png" alt="">
-                        <img class="arrow-2" src="icons/arrow.png" alt="">
+                    <div class="flex gap-10">
+                        <img class="p-4 rounded-full inline-block border-2 border-[#83CD20]" src="icons/arrow-left.png" alt="">
+                        <img class="p-4 rounded-full bg-[#83CD20]" src="icons/arrow.png" alt="">
                     </div>
                 </div>
-                <div class="memories-images">
-                    <img class="memories" src="image/memories-1.jpg" alt="">
-                    <div class="card-container">
-                        <div class="card">
-                            <h3 class="card-title">Working Visa</h3>
-                            <p class="card-description">Lorem Ipsum is simply dummy text the printing and provide best visa ever</p>
-                            <button class="card-btn">Apply now</button>
+                <div class="flex  justify-center gap-10 mb-10 mt-20">
+                    <img class="rounded-2xl w-72 h-96" src="image/memories-1.jpg" alt="">
+                    <div class="w-96 h-96 relative bg-center bg-no-repeat bg-cover rounded-2xl" style="background-image: url('image/memories-3.jpg');">
+                        <div class="absolute bg-[#83CD20] px-5 py-5 rounded-xl w-[330px] flex flex-col justify-center left-6 bottom-5 ">
+                            <h3 class="text-white mb-2 text-xl">Workini Visa</h3>
+                            <p class="card-font-normal text-white whitespace-pre-line mb-5">Lorem Ipsum is simply dummy text the printing and provide best visa ever</p>
+                            <button class="text-white mb-5 py-3 px-5 border-2 border-white bg-transparent rounded-full font-bold">Apply now</button>
                         </div>
                     </div>
-                    <img class="memories" src="image/memories-2.jpg" alt="">
+                    <img class="rounded-2xl w-72 h-96" src="image/memories-2.jpg" alt="">
                 </div>
                 <div style="justify-content: center; display: flex; gap: 20px;">
-                    <img class="memories" src="image/memories-4.jpg" alt="">
-                    <img class="memories" src="image/memories-5.jpg" alt="">
+                    <img class="rounded-2xl w-72 h-96" src="image/memories-4.jpg" alt="">
+                    <img class="rounded-2xl w-72 h-96" src="image/memories-5.jpg" alt="">
                 </div>
             </div>
         </section>
 
         <section>
-            <div class="visa-catagory">
-                <div class="visa-titles">
-                    <p class="subtitle"><img src="icons/Frame.png" alt=""> Visa Category</p>
-                    <h1 class="title">Seeking Adventure Thrills and Excitement Await</h1>
+            <div class="mx-32 mb-32">
+                <div class="mb-20">
+                    <p class="items-center flex text-[#034833] gap-5"><img src="icons/Frame.png" alt=""> Visa Category</p>
+                    <h1 class="text-4xl mt-3 w-[500px] text-[#034833] font-bold">Seeking Adventure Thrills and Excitement Await</h1>
                 </div>
 
-                <div class="visa-cards">
-                    <div class="visa-card">
-                        <div class="visa-img">
-                            <img src="image/busness-visa.jpg" alt="">
+                <div class="grid grid-cols-2 gap-10">
+                    <div class="flex border-2 border-[#727272] p-5 rounded-2xl items-center gap-10">
+                        <div>
+                            <img class="rounded-2xl w-[600px] h-[180px]" src="image/busness-visa.jpg" alt="">
                         </div>
                         <div>
-                            <h3 class="visa-card-title">Business Visa</h3>
-                            <p class="description">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis  the venenatis cras sed eu </p>
-                            <div class="group">
-                                <button><img src="icons/arrow-turned.png" alt=""></button>
+                            <h3 class="text-[#034833] text-2xl mb-4">Business Visa</h3>
+                            <p class="font-normal text-gray-600 whitespace-pre-line font-semibold">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis  the venenatis cras sed eu </p>
+                            <div class="flex items-center mt-5 justify-between">
+                                <button class="px-5 py-3 rounded-full border-2 bg-transparent border-[#83CD20]"><img src="icons/arrow-turned.png" alt=""></button>
                                 <img src="icons/Group 1000009616.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="visa-card">
-                        <div class="visa-img">
-                            <img src="image/Working Visa.jpg" alt="">
+                    <div class="flex border-2 border-[#727272] p-5 rounded-2xl items-center gap-10">
+                        <div>
+                            <img class="rounded-2xl w-[600px] h-[180px]" src="image/Working Visa.jpg" alt="">
                         </div>
                         <div>
-                            <h3 class="visa-card-title">Working Visa</h3>
-                            <p class="description">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis  the venenatis cras sed eu </p>
-                            <div class="group">
-                                <button><img src="icons/arrow-turned.png" alt=""></button>
+                            <h3 class="text-[#034833] text-2xl mb-4">Working Visa</h3>
+                            <p class="font-normal text-gray-600 whitespace-pre-line font-semibold">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis  the venenatis cras sed eu </p>
+                            <div class="flex items-center mt-5 justify-between">
+                                <button class="px-5 py-3 rounded-full border-2 bg-transparent border-[#83CD20]"><img src="icons/arrow-turned.png" alt=""></button>
                                 <img src="icons/working-visa.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="visa-card">
-                        <div class="visa-img">
-                            <img src="image/Student Visa.jpg" alt="">
+                    <div class="flex border-2 border-[#727272] p-5 rounded-2xl items-center gap-10">
+                        <div>
+                            <img class="rounded-2xl w-[600px] h-[180px]" src="image/Student Visa.jpg" alt="">
                         </div>
                         <div>
-                            <h3 class="visa-card-title">Student Visa</h3>
-                            <p class="description">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis  the venenatis cras sed eu </p>
-                            <div class="group">
-                                <button><img src="icons/arrow-turned.png" alt=""></button>
+                            <h3 class="text-[#034833] text-2xl mb-4">Student Visa</h3>
+                            <p class="font-normal text-gray-600 whitespace-pre-line font-semibold">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis  the venenatis cras sed eu </p>
+                            <div class="flex items-center mt-5 justify-between">
+                                <button class="px-5 py-3 rounded-full border-2 bg-transparent border-[#83CD20]"><img src="icons/arrow-turned.png" alt=""></button>
                                 <img src="icons/student-visa.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="visa-card">
-                        <div class="visa-img">
-                            <img src="image/Tourist Visa.jpg" alt="">
+                    <div class="flex border-2 border-[#727272] p-5 rounded-2xl items-center gap-10">
+                        <div>
+                            <img class="rounded-2xl w-[600px] h-[180px]" src="image/Tourist Visa.jpg" alt="">
                         </div>
                         <div>
-                            <h3 class="visa-card-title">Tourist Visa</h3>
-                            <p class="description">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis  the venenatis cras sed eu </p>
-                            <div class="group">
-                                <button><img src="icons/arrow-turned.png" alt=""></button>
+                            <h3 class="text-[#034833] text-2xl mb-4">Tourist Visa</h3>
+                            <p class="font-normal text-gray-600 whitespace-pre-line font-semibold">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis  the venenatis cras sed eu </p>
+                            <div class="flex items-center mt-5 justify-between">
+                                <button class="px-5 py-3 rounded-full border-2 bg-transparent border-[#83CD20]"><img src="icons/arrow-turned.png" alt=""></button>
                                 <img src="icons/Tourist Visa.png" alt="">
                             </div>
                         </div>
@@ -195,52 +199,150 @@
                 </div>
             </div>
         </section>
-        <section class="countrys">
-            <div class="title-container">
+        <section class="mb-32 mx-32">
+            <div class="flex mb-20 justify-between items-center">
                 <div>
-                    <p class="subtitle">Available Countries <img src="icons/OBJECTS.png" alt=""></p>
-                    <h1 class="title">Urban Escapes City Hopping Adventures</h1>
+                    <p class="items-center flex text-[#034833] gap-5">Available Countries <img src="icons/OBJECTS.png" alt=""></p>
+                    <h1 class="text-3xl  text-[#034833] font-bold">Urban Escapes City Hopping Adventures</h1>
                 </div>
                 <div>
-                    <button class="btn" style="margin-top: 65px;">View More <img src="icons/arrow.png" alt=""></button>
+                    <button class="bg-[#83CD20] px-5 py-4 rounded-full text-white flex items-center" style="margin-top: 65px;">View More <img src="icons/arrow.png" alt=""></button>
                 </div>
             </div>
-            <div class="country-cards">
-                <div class="country">
-                    <img class="country-flag" src="image/canada-flag.jpg" alt="">
-                    <h2 class="visa-card-title">Canada</h2>
-                    <div class="travel-details-list">
-                        <p class="travel-detail"><img src="icons/tic.png" alt="">Mistakes To Avoid</p>
-                        <p class="travel-detail"><img src="icons/tic.png" alt="">Your Startup</p>
-                        <p class="travel-detail"><img src="icons/tic.png" alt="">Knew About Fonts</p>
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-14 justify-around">
+                <div class="p-8 pr-10 h-72 border-2 border-[#b4b4b3] rounded-2xl">
+                    <img class="w-16 h-16 mb-3 rounded-full" src="image/canada-flag.jpg" alt="">
+                    <h2 class="text-[#034833] text-2xl mb-4">Canada</h2>
+                    <div class="mt-10">
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Mistakes To Avoid</p>
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Your Startup</p>
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Knew About Fonts</p>
                     </div>
                 </div>
-                <div class="country">
-                    <img class="country-flag" src="image/bangladesh-flag (3).jpg" alt="">
-                    <h2 class="visa-card-title">Bangladesh</h2>
-                    <div class="travel-details-list">
-                        <p class="travel-detail"><img src="icons/tic.png" alt="">Mistakes To Avoid</p>
-                        <p class="travel-detail"><img src="icons/tic.png" alt="">Your Startup</p>
-                        <p class="travel-detail"><img src="icons/tic.png" alt="">Knew About Fonts</p>
+                <div class="p-8 pr-10 h-72 border-2 border-[#b4b4b3] rounded-2xl">
+                    <img class="w-16 h-16 mb-3 rounded-full" src="image/bangladesh-flag (3).jpg" alt="">
+                    <h2 class="text-[#034833] text-2xl mb-4">Bangladesh</h2>
+                    <div class="mt-10">
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Mistakes To Avoid</p>
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Your Startup</p>
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Knew About Fonts</p>
                     </div>
                 </div>
-                <div class="country">
-                    <img class="country-flag" src="image/Flag_of_Australia_(converted).svg" alt="">
-                    <h2 class="visa-card-title">Australia</h2>
-                    <div class="travel-details-list">
-                        <p class="travel-detail"><img src="icons/tic.png" alt="">Mistakes To Avoid</p>
-                        <p class="travel-detail"><img src="icons/tic.png" alt="">Your Startup</p>
-                        <p class="travel-detail"><img src="icons/tic.png" alt="">Knew About Fonts</p>
+                <div class="p-8 pr-10 h-72 border-2 border-[#b4b4b3] rounded-2xl">
+                    <img class="w-16 h-16 mb-3 rounded-full" src="image/Flag_of_Australia_(converted).svg" alt="">
+                    <h2 class="text-[#034833] text-2xl mb-4">Australia</h2>
+                    <div class="mt-10">
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Mistakes To Avoid</p>
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Your Startup</p>
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Knew About Fonts</p>
                     </div>
                 </div>
-                <div class="country">
-                    <img class="country-flag" src="image/download.png" alt="">
-                    <h2 class="visa-card-title">United Kingdom</h2>
-                    <div class="travel-details-list">
-                        <p class="travel-detail"><img src="icons/tic.png" alt="">Mistakes To Avoid</p>
-                        <p class="travel-detail"><img src="icons/tic.png" alt="">Your Startup</p>
-                        <p class="travel-detail"><img src="icons/tic.png" alt="">Knew About Fonts</p>
+                <div class="p-8 pr-10 h-72 border-2 border-[#b4b4b3] rounded-2xl">
+                    <img class="w-16 h-16 mb-3 rounded-full" src="image/download.png" alt="">
+                    <h2 class="text-[#034833] text-2xl mb-4 whitespace-nowrap">United Kingdom</h2>
+                    <div class="mt-10">
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Mistakes To Avoid</p>
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Your Startup</p>
+                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Knew About Fonts</p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="mx-32 mb-32">
+            <div class="flex gap-10">
+                <div>
+                    <img class="rounded-2xl h-[620px]" src="image/offer.jpg" alt="">
+                </div>
+                <div>
+                    <div class="flex bg-white rounded-2xl p-10">
+                        <div class="w-[400px] ">
+                            <img class="bg-[#83CD20] p-3 mb-3 rounded-full" src="icons/050-worldwide.png" alt="">
+                            <h3 class="text-2xl mb-3">Get our best offers quickly</h3>
+                            <p>Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy</p>
+                            <button class="flex items-center border-2 border-[#b4b4b3] gap-4 rounded-full px-10 py-3 mt-4">Contact us <img src="icons/.png" alt=""></button>
+                        </div> 
+                        <div>
+                            <img class="w-[300px] h-[300px] rounded-2xl" src="image/offer.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="bg-[#83CD20] text-white flex gap-10 p-14 rounded-2xl mt-5">
+                        <div>
+                            <h3 class="text-5xl mb-3">10k+</h3>
+                            <p>Complete project</p>
+                        </div>
+                        <div>
+                            <h3 class="text-5xl mb-3">20+</h3>
+                            <p>Team member</p>
+                        </div>
+                        <div>
+                            <h3 class="text-5xl mb-3">5k+</h3>
+                            <p>Winning award</p>
+                        </div>
+                        <div>
+                            <h3 class="text-5xl mb-3">100+</h3>
+                            <p>Complete project</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="mx-32 mb-72">
+            <div class="flex items-end gap-10 justify-between mb-10">
+                <div>
+                    <p class="items-center flex text-[#034833] gap-5"><img src="icons/Frame.png" alt=""> Our Countries</p>
+                    <h1 class="mt-2 text-4xl text-[#034833] w-[500px]">A Tapestry of Experiences Cultural Encounters </h1>
+                </div>
+                <div class="flex gap-10">
+                    <img class="p-4 rounded-full bg-[#83CD20]" src="icons/arrow-left-2.png" alt="">
+                    <img class="p-4 rounded-full border-4 border-red-500 bg-transparent inline-block" src="icons/.png" alt="">
+                </div> 
+            </div>
+            <div class="grid grid-cols-3 gap-10">
+                <div>
+                    <div class="absolute">
+                        <img class="w-[350px] rounded-2xl" src="image/Coaching.jpg" alt="">
+                    </div>
+                    <div class="flex gap-5 bg-white p-5 rounded-2xl rounded-tr-none relative top-48 left-5 items-center">
+                        <div>
+                            <h3 class="text-xl text-[#034833] ">TOFEL Coaching</h3>
+                            <p class="text-gray-600 font-light">There are many variati of passages of engineer</p>
+                        </div>
+                        <div class="p-5 border-2 border-slate-500 rounded-2xl">
+                            <img src="icons/something.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <div class="absolute">
+                        <img class="w-[350px] rounded-2xl" src="image/Coaching.jpg" alt="">
+                    </div>
+                    <div class="flex gap-5 bg-white p-5 rounded-2xl rounded-tr-none relative top-48 left-5 items-center">
+                        <div>
+                            <h3 class="text-xl text-[#034833] ">TOFEL Coaching</h3>
+                            <p class="text-gray-600 font-light">There are many variati of passages of engineer</p>
+                        </div>
+                        <div class="p-5 border-2 border-slate-500 rounded-2xl">
+                            <img src="icons/something.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <div class="absolute">
+                        <img class="w-[350px] rounded-2xl" src="image/Coaching.jpg" alt="">
+                    </div>
+                    <div class="flex gap-5 bg-white p-5 rounded-2xl rounded-tr-none relative top-48 left-5 items-center">
+                        <div>
+                            <h3 class="text-xl text-[#034833] ">TOFEL Coaching</h3>
+                            <p class="text-gray-600 font-light">There are many variati of passages of engineer</p>
+                        </div>
+                        <div class="p-5 border-2 border-slate-500 rounded-2xl">
+                            <img src="icons/something.png" alt="">
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
