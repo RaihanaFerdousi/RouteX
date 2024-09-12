@@ -4,63 +4,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>RouteX</title>
 </head>
 <body class="plus-jakarta-sans-font bg-[#e9e9e9]">
-    <header class="mb-24 mx-20">
-        <nav class="flex items-center justify-around mt-5">
+    <header class="mb-24 mx-5 sm:mx-10 lg:mx-20">
+        <nav class="flex flex-wrap items-center justify-between mt-5">
             <div class="flex items-center gap-2">
-                <img src="icons/Logo.png" alt="Logo">
-                <h3 class="text-[#034833]">RouteX</h3>
+                <img src="icons/Logo.png" alt="Logo" class="h-8 w-8">
+                <h3 class="text-[#034833] text-lg sm:text-xl lg:text-2xl">RouteX</h3>
             </div>
-            <ul class="flex text-[#034833] list-none gap-6">
+            <ul class="hidden lg:flex text-[#034833] list-none gap-4 sm:gap-6">
                 <li class="flex items-center gap-2">Home <img src="icons/1.png" alt=""></li>
                 <li class="flex items-center gap-2">About Us <img src="icons/1.png" alt=""></li>
-                <li class="flex items-center gap-2">Services <img src="icons/1.png" alt=""></li>
                 <li class="flex items-center gap-2">Projects <img src="icons/1.png" alt=""></li>
                 <li class="flex items-center gap-2">Blog <img src="icons/1.png" alt=""></li>
                 <li class="flex items-center gap-2">Page <img src="icons/1.png" alt=""></li>
                 <li class="flex items-center gap-2">Contact <img src="icons/1.png" alt=""></li>
             </ul>
-            <button class="bg-[#83CD20] px-5 py-4 rounded-full text-white flex items-center whitespace-nowrap">Get An Appointment <img src="image/arrow.png" alt=""></button>
+            <button class="bg-[#83CD20] px-5 py-2 lg:py-4 rounded-full text-white flex items-center whitespace-nowrap mt-4 lg:mt-0">Get An Appointment <img src="icons/arrow.png" alt="" class="ml-2 h-4 w-4"></button>
         </nav>
-        <div class="banner bg-[#034833] p-40 text-white mt-8 flex text-center justify-center bg-no-repeat bg-center bg-cover rounded-2xl">
+        <div class="banner bg-[#034833] p-10 sm:p-20 lg:p-40 text-white mt-8 flex text-center justify-center bg-no-repeat bg-center bg-cover rounded-2xl  section animate">
             <div>
-                <h1 class="mb-5 text-5xl font-bold">Visa Made Easy Dreams <br> <span style="color: #83CD20;">Made Possible</span></h1>
-                <p class="font-normal text-gray-600 whitespace-pre-line font-semibold" style="margin-bottom: 20px; color: white;">
+                <h1 class="mb-5 text-3xl sm:text-4xl lg:text-5xl font-bold">Visa Made Easy Dreams <br> <span class="text-[#83CD20]">Made Possible</span></h1>
+                <p class="font-normal text-gray-600 font-semibold mb-5 text-sm sm:text-base lg:text-lg" style="color: white;">
                     Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Sed sit amet arcu nunc. Duis egestas ac ante sed tincidunt.
                 </p>
                 <div class="flex justify-center"> 
-                    <button class="bg-[#83CD20] px-5 py-4 rounded-full text-white flex items-center ">Read More <img src="image/arrow.png" alt=""></button>
+                    <button class="bg-[#83CD20] px-5 py-2 lg:py-4 rounded-full text-white flex items-center">Read More <img src="image/arrow.png" alt="" class="ml-2 h-4 w-4"></button>
                 </div>
             </div>
         </div>
     </header>
+    
 
     <main>
-        <section class="flex items-center mx-20 justify-center">
-            <div class="flex gap-10 w-1/2">
-                <div>
-                    <img class="w-48 h-64 mb-5 rounded-2xl" src="image/pexels-jyju-jossey-434389812-25849056.jpg" alt="">
+        <section class="flex flex-wrap items-center mx-5 sm:mx-10 lg:mx-20 justify-center gap-10 lg:gap-0 section animate">
+            <div class="flex flex-wrap gap-5 sm:gap-10 w-full lg:w-1/2 justify-center lg:justify-start">
+                <div class="flex flex-col gap-5">
+                    <img class="w-40 sm:w-48 h-56 sm:h-64 rounded-2xl" src="image/pexels-jyju-jossey-434389812-25849056.jpg" alt="">
                     <img src="icons/Group 1000007977.png" alt="">
                 </div>
-                <div>
+                <div class="flex flex-col gap-5">
                     <div class="flex bg-[#83CD20] rounded-2xl gap-4 items-center p-5 text-white">
-                        <h1 class="text-4xl">25</h1>
-                        <p>Years Of <br> experience</p>
+                        <h1 class="text-3xl sm:text-4xl">25</h1>
+                        <p class="text-base sm:text-lg">Years Of <br> experience</p>
                     </div>
-                    <img class="w-56 mt-5 h-96 rounded-2xl" src="image/pexels-jyju-jossey-434389812-25849056.jpg" alt="">
+                    <img class="w-48 sm:w-56 h-80 sm:h-96 rounded-2xl" src="image/pexels-jyju-jossey-434389812-25849056.jpg" alt="">
                 </div>
             </div>
-            <div class="w-1/2">
-                <p class="text-[#034833] font-semibold flex gap-4"><img src="icons/Frame.png" alt=""> Why Choose Us</p>
-                <h2 class="text-4xl mb-5 font-bold mt-2">Where Wanderlust Meets <br><span class="text-[#034833] font-semibold"> Dream Destinations </span></h2>
+            <div class="w-full lg:w-1/2">
+                <p class="text-[#034833] font-semibold flex gap-4 items-center"><img src="icons/Frame.png" alt=""> Why Choose Us</p>
+                <h2 class="text-3xl sm:text-4xl mb-5 font-bold mt-2">Where Wanderlust Meets <br><span class="text-[#034833] font-semibold"> Dream Destinations </span></h2>
                 <p class="font-normal text-gray-600 whitespace-pre-line font-semibold">
                     Et purus duis sollicitudin dignissim habitant. Egestas nulla quis venenatis cras sed eu massa Et purus duis sollicitudin dignissim habitant. Egestas nulla quis venenatis cras sed eu massa Et purus duis sollicitudin dignissim habitant. Egestas nulla
                 </p>
-                <div class="mt-8 flex mb-5 gap-8">
-                    <div class="flex flex-col p-6 rounded-2xl border-2 border-[#8d8d8d]">
+                <div class="mt-8 flex flex-wrap gap-8">
+                    <div class="flex flex-col p-4 sm:p-6 rounded-2xl border-2 border-[#8d8d8d]">
                         <h3 class="flex items-center font-bold mb-4 gap-5 text-[#034833] font-semibold">
                             <img class="bg-[#83CD20] p-2 rounded-2xl" src="icons/006-browser.png" alt="Passport Plus Icon">
                             Passport Plus
@@ -74,7 +75,7 @@
                             Beyond Border Immigration
                         </p>
                     </div>
-                    <div class="flex flex-col p-6 rounded-2xl border-2 border-[#8d8d8d]">
+                    <div class="flex flex-col p-4 sm:p-6 rounded-2xl border-2 border-[#8d8d8d]">
                         <h3 class="flex items-center font-bold mb-4 gap-5 text-[#034833] font-semibold">
                             <img class="bg-[#83CD20] p-2 rounded-2xl" src="icons/007-refugee camp.png" alt="Passport Plus Icon">
                             Global Entry
@@ -89,108 +90,137 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex gap-10">
-                    <button class="bg-transparent border-2 flex items-center gap-2 px-10 py-3 border-[#83CD20] rounded-full text-lg text-[#034833]">Read More <img src="icons/.png" alt=""></button>
-
-                    <button class="flex  items-center bg-transparent border-none text-[#034833] gap-5 text-lg">
-                        <img class="w-10 h-10  bg-[#83CD20] p-5 rounded-full" src="icons/call-icon.png" alt=""><span style="font-weight: 400;">Need help?</span> (808) 555-0111</button>
+                <div class="flex flex-wrap gap-5 mt-8">
+                    <button class="bg-transparent border-2 flex items-center gap-2 px-5 py-2 sm:px-10 sm:py-3 border-[#83CD20] rounded-full text-base sm:text-lg text-[#034833]">Read More <img src="icons/.png" alt=""></button>
+        
+                    <button class="flex items-center bg-transparent border-none text-[#034833] gap-5 text-base sm:text-lg">
+                        <img class="w-8 h-8 sm:w-10 sm:h-10 bg-[#83CD20] p-3 sm:p-5 rounded-full" src="icons/call-icon.png" alt=""><span style="font-weight: 400;">Need help?</span> (808) 555-0111</button>
                 </div>
             </div>
         </section>
+        
 
-        <section>
-            <div class="flex justify-center gap-20 mt-24">
-                <img src="icons/Company logo-1.png" alt="">
-                <img src="icons/Company logo-2.png" alt="">
-                <img src="icons/Company logo-3.png" alt="">
-                <img src="icons/Company logo-4.png" alt="">
-                <img src="icons/Company logo-5.png" alt="">
+        <section class="mx-5 my-52 my-20 sm:mx-10 lg:mx-20  section animate">
+            <div class="flex flex-wrap justify-center gap-10 sm:gap-16 lg:gap-20 mt-10 sm:mt-16 lg:mt-24">
+                <img class="w-24 sm:w-28 lg:w-32" src="icons/Company logo-1.png" alt="">
+                <img class="w-24 sm:w-28 lg:w-32" src="icons/Company logo-2.png" alt="">
+                <img class="w-24 sm:w-28 lg:w-32" src="icons/Company logo-3.png" alt="">
+                <img class="w-24 sm:w-28 lg:w-32" src="icons/Company logo-4.png" alt="">
+                <img class="w-24 sm:w-28 lg:w-32" src="icons/Company logo-5.png" alt="">
             </div>
-            <div class="rounded-2xl my-20 p-24 ">
-                <div class="flex items-end gap-10 justify-between">
-                    <div>
-                        <p class="items-center flex text-[#034833] gap-5"><img src="icons/Frame.png" alt=""> Our Countries</p>
-                        <h1 class="mt-2 text-4xl text-[#034833] font-bold w-[500px]">Making Memories Around World Unforgettable</h1>
+            <div class="rounded-2xl my-10 sm:my-16 lg:my-20 p-8 sm:p-16 lg:p-24 bg-[#f7f7f7]">
+                <div class="flex flex-wrap items-end gap-5 sm:gap-10 justify-between">
+                    <div class="flex-1">
+                        <p class="flex items-center text-[#034833] gap-3 sm:gap-5">
+                            <img src="icons/Frame.png" alt=""> Our Countries
+                        </p>
+                        <h1 class="mt-2 text-2xl sm:text-3xl lg:text-4xl text-[#034833] font-bold max-w-full sm:max-w-[500px]">
+                            Making Memories Around the World Unforgettable
+                        </h1>
                     </div>
-                    <div class="flex gap-10">
-                        <img class="p-4 rounded-full inline-block border-2 border-[#83CD20]" src="icons/arrow-left.png" alt="">
-                        <img class="p-4 rounded-full bg-[#83CD20]" src="icons/arrow.png" alt="">
+                    <div class="flex gap-5 sm:gap-10 mt-5 sm:mt-0">
+                        <img class="p-3 sm:p-4 rounded-full border-2 border-[#83CD20]" src="icons/arrow-left.png" alt="">
+                        <img class="p-3 sm:p-4 rounded-full bg-[#83CD20]" src="icons/arrow.png" alt="">
                     </div>
                 </div>
-                <div class="flex  justify-center gap-10 mb-10 mt-20">
-                    <img class="rounded-2xl w-72 h-96" src="image/memories-1.jpg" alt="">
-                    <div class="w-96 h-96 relative bg-center bg-no-repeat bg-cover rounded-2xl" style="background-image: url('image/memories-3.jpg');">
-                        <div class="absolute bg-[#83CD20] px-5 py-5 rounded-xl w-[330px] flex flex-col justify-center left-6 bottom-5 ">
-                            <h3 class="text-white mb-2 text-xl">Workini Visa</h3>
-                            <p class="card-font-normal text-white whitespace-pre-line mb-5">Lorem Ipsum is simply dummy text the printing and provide best visa ever</p>
-                            <button class="text-white mb-5 py-3 px-5 border-2 border-white bg-transparent rounded-full font-bold">Apply now</button>
+                <div class="flex flex-wrap justify-center gap-5 sm:gap-8 lg:gap-10 mb-10 mt-10 sm:mt-16 lg:mt-20">
+                    <img class="rounded-2xl w-48 sm:w-60 lg:w-72 h-64 sm:h-80 lg:h-96" src="image/memories-1.jpg" alt="">
+                    <div class="relative w-64 sm:w-80 lg:w-96 h-64 sm:h-80 lg:h-96 bg-center bg-no-repeat bg-cover rounded-2xl" style="background-image: url('image/memories-3.jpg');">
+                        <div class="absolute bg-[#83CD20] px-4 py-4 sm:px-5 sm:py-5 rounded-xl w-[230px] sm:w-[270px] lg:w-[330px] flex flex-col justify-center left-4 sm:left-5 lg:left-6 bottom-4 sm:bottom-5 lg:bottom-6">
+                            <h3 class="text-white mb-2 text-lg sm:text-xl">Working Visa</h3>
+                            <p class="text-white text-sm sm:text-base mb-4 sm:mb-5">Lorem Ipsum is simply dummy text the printing and provides the best visa ever</p>
+                            <button class="text-white py-2 sm:py-3 px-4 sm:px-5 border-2 border-white bg-transparent rounded-full font-bold">Apply now</button>
                         </div>
                     </div>
-                    <img class="rounded-2xl w-72 h-96" src="image/memories-2.jpg" alt="">
+                    <img class="rounded-2xl w-48 sm:w-60 lg:w-72 h-64 sm:h-80 lg:h-96" src="image/memories-2.jpg" alt="">
                 </div>
-                <div style="justify-content: center; display: flex; gap: 20px;">
-                    <img class="rounded-2xl w-72 h-96" src="image/memories-4.jpg" alt="">
-                    <img class="rounded-2xl w-72 h-96" src="image/memories-5.jpg" alt="">
+                <div class="flex flex-wrap justify-center gap-5 sm:gap-8 lg:gap-10">
+                    <img class="rounded-2xl w-48 sm:w-60 lg:w-72 h-64 sm:h-80 lg:h-96" src="image/memories-4.jpg" alt="">
+                    <img class="rounded-2xl w-48 sm:w-60 lg:w-72 h-64 sm:h-80 lg:h-96" src="image/memories-5.jpg" alt="">
                 </div>
             </div>
         </section>
+        
 
-        <section>
-            <div class="mx-32 mb-32">
-                <div class="mb-20">
-                    <p class="items-center flex text-[#034833] gap-5"><img src="icons/Frame.png" alt=""> Visa Category</p>
-                    <h1 class="text-4xl mt-3 w-[500px] text-[#034833] font-bold">Seeking Adventure Thrills and Excitement Await</h1>
+        <section class=" section animate">
+            <div class="mx-5 my-52 sm:mx-10 lg:mx-20 xl:mx-32 mb-10 sm:mb-20 lg:mb-3">
+                <div class="mb-10 sm:mb-16 lg:mb-20">
+                    <p class="flex items-center text-[#034833] gap-3 sm:gap-5">
+                        <img src="icons/Frame.png" alt=""> Visa Category
+                    </p>
+                    <h1 class="text-2xl sm:text-3xl lg:text-4xl mt-2 sm:mt-3 text-[#034833] font-bold max-w-full sm:max-w-[500px]">
+                        Seeking Adventure Thrills and Excitement Await
+                    </h1>
                 </div>
-
-                <div class="grid grid-cols-2 gap-10">
-                    <div class="flex border-2 border-[#727272] p-5 rounded-2xl items-center gap-10">
-                        <div>
-                            <img class="rounded-2xl w-[600px] h-[180px]" src="image/busness-visa.jpg" alt="">
+        
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-8 lg:gap-10">
+                    <div class="flex border-2 border-[#727272] p-5 rounded-2xl items-center gap-5 sm:gap-8 lg:gap-10">
+                        <div class="w-1/2">
+                            <img class="rounded-2xl w-full sm:w-[300px] lg:w-[400px] h-[120px] sm:h-[150px] lg:h-[180px]" src="image/busness-visa.jpg" alt="">
                         </div>
-                        <div>
-                            <h3 class="text-[#034833] text-2xl mb-4">Business Visa</h3>
-                            <p class="font-normal text-gray-600 whitespace-pre-line font-semibold">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis  the venenatis cras sed eu </p>
-                            <div class="flex items-center mt-5 justify-between">
-                                <button class="px-5 py-3 rounded-full border-2 bg-transparent border-[#83CD20]"><img src="icons/arrow-turned.png" alt=""></button>
+                        <div class="w-1/2">
+                            <h3 class="text-[#034833] text-xl sm:text-2xl mb-3 sm:mb-4">Business Visa</h3>
+                            <p class="font-normal text-gray-600 font-semibold">
+                                Et purus duis sollicitudin dignissim habitant. Egestas nulla quis venenatis cras sed eu
+                            </p>
+                            <div class="flex items-center mt-3 sm:mt-5 justify-between">
+                                <button class="px-4 py-2 sm:px-5 sm:py-3 rounded-full border-2 bg-transparent border-[#83CD20]">
+                                    <img src="icons/arrow-turned.png" alt="">
+                                </button>
                                 <img src="icons/Group 1000009616.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="flex border-2 border-[#727272] p-5 rounded-2xl items-center gap-10">
-                        <div>
-                            <img class="rounded-2xl w-[600px] h-[180px]" src="image/Working Visa.jpg" alt="">
+        
+                    <div class="flex border-2 border-[#727272] p-5 rounded-2xl items-center gap-5 sm:gap-8 lg:gap-10">
+                        <div class="w-1/2">
+                            <img class="rounded-2xl w-full sm:w-[300px] lg:w-[400px] h-[120px] sm:h-[150px] lg:h-[180px]" src="image/Working Visa.jpg" alt="">
                         </div>
-                        <div>
-                            <h3 class="text-[#034833] text-2xl mb-4">Working Visa</h3>
-                            <p class="font-normal text-gray-600 whitespace-pre-line font-semibold">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis  the venenatis cras sed eu </p>
-                            <div class="flex items-center mt-5 justify-between">
-                                <button class="px-5 py-3 rounded-full border-2 bg-transparent border-[#83CD20]"><img src="icons/arrow-turned.png" alt=""></button>
+                        <div class="w-1/2">
+                            <h3 class="text-[#034833] text-xl sm:text-2xl mb-3 sm:mb-4">Working Visa</h3>
+                            <p class="font-normal text-gray-600 font-semibold">
+                                Et purus duis sollicitudin dignissim habitant. Egestas nulla quis venenatis cras sed eu
+                            </p>
+                            <div class="flex items-center mt-3 sm:mt-5 justify-between">
+                                <button class="px-4 py-2 sm:px-5 sm:py-3 rounded-full border-2 bg-transparent border-[#83CD20]">
+                                    <img src="icons/arrow-turned.png" alt="">
+                                </button>
                                 <img src="icons/working-visa.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="flex border-2 border-[#727272] p-5 rounded-2xl items-center gap-10">
-                        <div>
-                            <img class="rounded-2xl w-[600px] h-[180px]" src="image/Student Visa.jpg" alt="">
+        
+                    <div class="flex border-2 border-[#727272] p-5 rounded-2xl items-center gap-5 sm:gap-8 lg:gap-10">
+                        <div class="w-1/2">
+                            <img class="rounded-2xl w-full sm:w-[300px] lg:w-[400px] h-[120px] sm:h-[150px] lg:h-[180px]" src="image/Student Visa.jpg" alt="">
                         </div>
-                        <div>
-                            <h3 class="text-[#034833] text-2xl mb-4">Student Visa</h3>
-                            <p class="font-normal text-gray-600 whitespace-pre-line font-semibold">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis  the venenatis cras sed eu </p>
-                            <div class="flex items-center mt-5 justify-between">
-                                <button class="px-5 py-3 rounded-full border-2 bg-transparent border-[#83CD20]"><img src="icons/arrow-turned.png" alt=""></button>
+                        <div class="w-1/2">
+                            <h3 class="text-[#034833] text-xl sm:text-2xl mb-3 sm:mb-4">Student Visa</h3>
+                            <p class="font-normal text-gray-600 font-semibold">
+                                Et purus duis sollicitudin dignissim habitant. Egestas nulla quis venenatis cras sed eu
+                            </p>
+                            <div class="flex items-center mt-3 sm:mt-5 justify-between">
+                                <button class="px-4 py-2 sm:px-5 sm:py-3 rounded-full border-2 bg-transparent border-[#83CD20]">
+                                    <img src="icons/arrow-turned.png" alt="">
+                                </button>
                                 <img src="icons/student-visa.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="flex border-2 border-[#727272] p-5 rounded-2xl items-center gap-10">
-                        <div>
-                            <img class="rounded-2xl w-[600px] h-[180px]" src="image/Tourist Visa.jpg" alt="">
+        
+                    <div class="flex border-2 border-[#727272] p-5 rounded-2xl items-center gap-5 sm:gap-8 lg:gap-10">
+                        <div class="w-1/2">
+                            <img class="rounded-2xl w-full sm:w-[300px] lg:w-[400px] h-[120px] sm:h-[150px] lg:h-[180px]" src="image/Tourist Visa.jpg" alt="">
                         </div>
-                        <div>
-                            <h3 class="text-[#034833] text-2xl mb-4">Tourist Visa</h3>
-                            <p class="font-normal text-gray-600 whitespace-pre-line font-semibold">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis  the venenatis cras sed eu </p>
-                            <div class="flex items-center mt-5 justify-between">
-                                <button class="px-5 py-3 rounded-full border-2 bg-transparent border-[#83CD20]"><img src="icons/arrow-turned.png" alt=""></button>
+                        <div class="w-1/2">
+                            <h3 class="text-[#034833] text-xl sm:text-2xl mb-3 sm:mb-4">Tourist Visa</h3>
+                            <p class="font-normal text-gray-600 font-semibold">
+                                Et purus duis sollicitudin dignissim habitant. Egestas nulla quis venenatis cras sed eu
+                            </p>
+                            <div class="flex items-center mt-3 sm:mt-5 justify-between">
+                                <button class="px-4 py-2 sm:px-5 sm:py-3 rounded-full border-2 bg-transparent border-[#83CD20]">
+                                    <img src="icons/arrow-turned.png" alt="">
+                                </button>
                                 <img src="icons/Tourist Visa.png" alt="">
                             </div>
                         </div>
@@ -198,266 +228,444 @@
                 </div>
             </div>
         </section>
-        <section class="mb-32 mx-32">
-            <div class="flex mb-20 justify-between items-center">
-                <div>
-                    <p class="items-center flex text-[#034833] gap-5">Available Countries <img src="icons/OBJECTS.png" alt=""></p>
-                    <h1 class="text-3xl  text-[#034833] font-bold">Urban Escapes City Hopping Adventures</h1>
-                </div>
-                <div>
-                    <button class="bg-[#83CD20] px-5 py-4 rounded-full text-white flex items-center" style="margin-top: 65px;">View More <img src="icons/arrow.png" alt=""></button>
-                </div>
+        
+      <section class="mb-10 my-52 sm:mb-20 lg:mb-32 mx-5 sm:mx-10 lg:mx-20 xl:mx-32  section animate">
+    <div class="flex flex-col sm:flex-row mb-10 sm:mb-16 lg:mb-20 justify-between items-start sm:items-center">
+        <div>
+            <p class="flex items-center text-[#034833] gap-3 sm:gap-5">Available Countries <img src="icons/OBJECTS.png" alt=""></p>
+            <h1 class="text-2xl sm:text-3xl text-[#034833] font-bold mt-3 sm:mt-0">Urban Escapes City Hopping Adventures</h1>
+        </div>
+        <div class="mt-5 sm:mt-0">
+            <button class="bg-[#83CD20] px-4 py-3 sm:px-5 sm:py-4 rounded-full text-white flex items-center">
+                View More <img src="icons/arrow.png" alt="" class="ml-2">
+            </button>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 lg:gap-14">
+        <div class="p-5 sm:p-8 pr-8 sm:pr-10 border-2 border-[#b4b4b3] rounded-2xl">
+            <img class="w-12 h-12 sm:w-16 sm:h-16 mb-3 rounded-full" src="image/canada-flag.jpg" alt="">
+            <h2 class="text-[#034833] text-xl sm:text-2xl mb-2">Canada</h2>
+            <div class="mt-5 sm:mt-10">
+                <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
+                    <img src="icons/tic.png" alt=""> Mistakes To Avoid
+                </p>
+                <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
+                    <img src="icons/tic.png" alt=""> Your Startup
+                </p>
+                <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
+                    <img src="icons/tic.png" alt=""> Knew About Fonts
+                </p>
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-4 gap-14 justify-around">
-                <div class="p-8 pr-10 border-2 border-[#b4b4b3] rounded-2xl">
-                    <img class="w-16 h-16 mb-3 rounded-full" src="image/canada-flag.jpg" alt="">
-                    <h2 class="text-[#034833] text-2xl mb-2">Canada</h2>
-                    <div class="mt-10">
-                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Mistakes To Avoid</p>
-                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Your Startup</p>
-                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Knew About Fonts</p>
-                    </div>
-                </div>
-                <div class="p-8 pr-10 border-2 border-[#b4b4b3] rounded-2xl">
-                    <img class="w-16 h-16 mb-3 rounded-full" src="image/bangladesh-flag (3).jpg" alt="">
-                    <h2 class="text-[#034833] text-2xl mb-2">Bangladesh</h2>
-                    <div class="mt-10">
-                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Mistakes To Avoid</p>
-                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Your Startup</p>
-                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Knew About Fonts</p>
-                    </div>
-                </div>
-                <div class="p-8 pr-10  border-2 border-[#b4b4b3] rounded-2xl">
-                    <img class="w-16 h-16 mb-3 rounded-full" src="image/Flag_of_Australia_(converted).svg" alt="">
-                    <h2 class="text-[#034833] text-2xl mb-2">Australia</h2>
-                    <div class="mt-10">
-                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Mistakes To Avoid</p>
-                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Your Startup</p>
-                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Knew About Fonts</p>
-                    </div>
-                </div>
-                <div class="px-8 py-5 pr-10 border-2 border-[#b4b4b3] rounded-2xl">
-                    <img class="w-16 h-16 mb-3 rounded-full" src="image/download.png" alt="">
-                    <h2 class="text-[#034833] text-2xl mb-2 whitespace-nowrap">United Kingdom</h2>
-                    <div class="mt-10">
-                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Mistakes To Avoid</p>
-                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Your Startup</p>
-                        <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2"><img src="icons/tic.png" alt="">Knew About Fonts</p>
-                    </div>
-                </div>
+        </div>
+        <div class="p-5 sm:p-8 pr-8 sm:pr-10 border-2 border-[#b4b4b3] rounded-2xl">
+            <img class="w-12 h-12 sm:w-16 sm:h-16 mb-3 rounded-full" src="image/bangladesh-flag (3).jpg" alt="">
+            <h2 class="text-[#034833] text-xl sm:text-2xl mb-2">Bangladesh</h2>
+            <div class="mt-5 sm:mt-10">
+                <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
+                    <img src="icons/tic.png" alt=""> Mistakes To Avoid
+                </p>
+                <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
+                    <img src="icons/tic.png" alt=""> Your Startup
+                </p>
+                <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
+                    <img src="icons/tic.png" alt=""> Knew About Fonts
+                </p>
             </div>
-        </section>
-        <section class="mx-32 mb-32">
-            <div class="flex gap-10">
-                <div>
-                    <img class="rounded-2xl h-[620px]" src="image/offer.jpg" alt="">
-                </div>
-                <div>
-                    <div class="flex bg-white rounded-2xl p-10">
-                        <div class="w-[400px] ">
-                            <img class="bg-[#83CD20] p-3 mb-3 rounded-full" src="icons/050-worldwide.png" alt="">
-                            <h3 class="text-2xl mb-3">Get our best offers quickly</h3>
-                            <p>Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy</p>
-                            <button class="flex items-center border-2 border-[#b4b4b3] gap-4 rounded-full px-10 py-3 mt-4">Contact us <img src="icons/.png" alt=""></button>
-                        </div> 
-                        <div>
-                            <img class="w-[300px] h-[300px] rounded-2xl" src="image/offer.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="bg-[#83CD20] text-white flex gap-10 p-14 rounded-2xl mt-5">
-                        <div>
-                            <h3 class="text-5xl mb-3">10k+</h3>
-                            <p>Complete project</p>
-                        </div>
-                        <div>
-                            <h3 class="text-5xl mb-3">20+</h3>
-                            <p>Team member</p>
-                        </div>
-                        <div>
-                            <h3 class="text-5xl mb-3">5k+</h3>
-                            <p>Winning award</p>
-                        </div>
-                        <div>
-                            <h3 class="text-5xl mb-3">100+</h3>
-                            <p>Complete project</p>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div class="p-5 sm:p-8 pr-8 sm:pr-10 border-2 border-[#b4b4b3] rounded-2xl">
+            <img class="w-12 h-12 sm:w-16 sm:h-16 mb-3 rounded-full" src="image/Flag_of_Australia_(converted).svg" alt="">
+            <h2 class="text-[#034833] text-xl sm:text-2xl mb-2">Australia</h2>
+            <div class="mt-5 sm:mt-10">
+                <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
+                    <img src="icons/tic.png" alt=""> Mistakes To Avoid
+                </p>
+                <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
+                    <img src="icons/tic.png" alt=""> Your Startup
+                </p>
+                <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
+                    <img src="icons/tic.png" alt=""> Knew About Fonts
+                </p>
+            </div>
+        </div>
+        <div class="p-5 sm:p-8 pr-8 sm:pr-10 border-2 border-[#b4b4b3] rounded-2xl">
+            <img class="w-12 h-12 sm:w-16 sm:h-16 mb-3 rounded-full" src="image/download.png" alt="">
+            <h2 class="text-[#034833] text-xl sm:text-2xl mb-2 whitespace-nowrap">United Kingdom</h2>
+            <div class="mt-5 sm:mt-10">
+                <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
+                    <img src="icons/tic.png" alt=""> Mistakes To Avoid
+                </p>
+                <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
+                    <img src="icons/tic.png" alt=""> Your Startup
+                </p>
+                <p class="flex font-normal text-gray-600 items-center mb-2 whitespace-nowrap gap-2">
+                    <img src="icons/tic.png" alt=""> Knew About Fonts
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
+    <section class="mx-5 my-52 sm:mx-10 lg:mx-20 xl:mx-32 mb-10 sm:mb-20 lg:mb-32  section animate">
+        <div class="flex flex-col lg:flex-row gap-5 sm:gap-10">
+            <div>
+                <img class="rounded-2xl h-auto lg:h-[620px] w-full lg:w-auto" src="image/offer.jpg" alt="">
             </div>
-        </section>
-        <section class="mx-32 mb-72">
-            <div class="flex items-end gap-10 justify-between mb-10">
-                <div>
-                    <p class="items-center flex text-[#034833] gap-5"><img src="icons/Frame.png" alt="">supporting Coaching</p>
-                    <h1 class="mt-2 text-4xl text-[#034833] w-[500px]">A Tapestry of Experiences Cultural Encounters </h1>
+            <div class="flex flex-col gap-5">
+                <div class="flex flex-col sm:flex-row bg-white rounded-2xl p-5 sm:p-10">
+                    <div class="w-full sm:w-[400px] mb-5 sm:mb-0">
+                        <img class="bg-[#83CD20] p-3 mb-3 rounded-full" src="icons/050-worldwide.png" alt="">
+                        <h3 class="text-xl sm:text-2xl mb-3">Get our best offers quickly</h3>
+                        <p class="text-sm sm:text-base">Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy</p>
+                        <button class="flex items-center border-2 border-[#b4b4b3] gap-4 rounded-full px-5 sm:px-10 py-2 sm:py-3 mt-4">
+                            Contact us <img src="icons/.png" alt="">
+                        </button>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] rounded-2xl" src="image/offer.jpg" alt="">
+                    </div>
                 </div>
-                <div class="flex gap-10">
-                    <img class="p-4 rounded-full bg-[#83CD20]" src="icons/arrow-left-2.png" alt="">
-                    <img class="bg-transparent bg-[#C8C8C8] p-4 rounded-full" src="icons/.png" alt="">
-                </div> 
-            </div>
-            <div class="grid grid-cols-3 gap-14">
-                <div>
-                    <div class="absolute  w-1/3">
-                        <img class="w-[350px] rounded-2xl" src="image/Coaching.jpg" alt="">
+                <div class="bg-[#83CD20] text-white flex gap-5 sm:gap-10 p-8 sm:p-14 rounded-2xl">
+                    <div>
+                        <h3 class="text-3xl sm:text-4xl lg:text-5xl mb-2 sm:mb-3">10k+</h3>
+                        <p class="text-sm sm:text-base">Complete project</p>
                     </div>
-                    <div class="flex gap-5 bg-white p-5 rounded-2xl rounded-tr-none relative top-48 left-5 items-center">
-                        <div>
-                            <h3 class="text-xl text-[#034833] ">TOFEL Coaching</h3>
-                            <p class="text-gray-600 font-light">There are many variati of passages of engineer</p>
-                        </div>
-                        <div class="p-5 border-2 border-slate-500 rounded-2xl">
-                            <img src="icons/something.png" alt="">
-                        </div>
+                    <div>
+                        <h3 class="text-3xl sm:text-4xl lg:text-5xl mb-2 sm:mb-3">20+</h3>
+                        <p class="text-sm sm:text-base">Team member</p>
                     </div>
-                    
-                </div>
-                <div>
-                    <div class="absolute">
-                        <img class="w-[350px] rounded-2xl" src="image/Coaching.jpg" alt="">
+                    <div>
+                        <h3 class="text-3xl sm:text-4xl lg:text-5xl mb-2 sm:mb-3">5k+</h3>
+                        <p class="text-sm sm:text-base">Winning award</p>
                     </div>
-                    <div class="flex gap-5 bg-white p-5 rounded-2xl rounded-tr-none relative top-48 left-5 items-center">
-                        <div>
-                            <h3 class="text-xl text-[#034833] ">TOFEL Coaching</h3>
-                            <p class="text-gray-600 font-light">There are many variati of passages of engineer</p>
-                        </div>
-                        <div class="p-5 border-2 border-slate-500 rounded-2xl">
-                            <img src="icons/something.png" alt="">
-                        </div>
+                    <div>
+                        <h3 class="text-3xl sm:text-4xl lg:text-5xl mb-2 sm:mb-3">100+</h3>
+                        <p class="text-sm sm:text-base">Complete project</p>
                     </div>
-                    
-                </div>
-                <div>
-                    <div class="absolute">
-                        <img class="w-[350px] rounded-2xl" src="image/Coaching.jpg" alt="">
-                    </div>
-                    <div class="flex gap-5 bg-white p-5 rounded-2xl rounded-tr-none relative top-48 left-5 items-center">
-                        <div>
-                            <h3 class="text-xl text-[#034833] ">TOFEL Coaching</h3>
-                            <p class="text-gray-600 font-light">There are many variati of passages of engineer</p>
-                        </div>
-                        <div class="p-5 border-2 border-slate-500 rounded-2xl">
-                            <img src="icons/something.png" alt="">
-                        </div>
-                    </div>
-                    
                 </div>
             </div>
-        </section>
-        <section class="px-32 bg-white py-20 mx-10 mb-32 rounded-2xl bg-cover" style="background-image: url('image/Vector.png');" >
-            <div class="mb-20">
-                <p class="items-center flex text-[#034833] gap-5"><img src="icons/Frame.png" alt="">Our Coaching</p>
-                <h1 class="text-4xl mt-3 w-[500px] text-[#034833] font-bold">Exploring the Unknown Voyages of Wonder </h1>
-            </div>
-            <div class="flex items-center gap-20">
-                <div class="w-1/2">
-                    <div class="border-[#E3DBD8] border-2 flex items-center justify-between rounded-2xl  p-8">
-                        <div>
-                            <h3 class="text-[#034833] text-xl">Courtney Henry</h3>
-                            <p class="text-[#727272]">Medical Assistant</p>
-                        </div>
-                        <div>
-                            <img class="p-4 rounded-full bg-[#83CD20]" src="icons/arrow.png" alt="">
-                        </div>
-                    </div>
+        </div>
+    </section>
 
-                    <div class="border-[#E3DBD8] border-2 flex items-center justify-between rounded-2xl p-8 my-5">
-                        <div>
-                            <h3 class="text-[#034833] text-xl">Courtney Henry</h3>
-                            <p class="text-[#727272]">Medical Assistant</p>
-                        </div>
-                        <div class=" border-2 border-[#E3DBD8] rounded-full">
-                            <img class="p-4 bg-transparent" src="icons/.png" alt="">
-                        </div>
-                    </div>
-                    <div class="border-[#E3DBD8] border-2 flex items-center justify-between rounded-2xl p-8">
-                        <div>
-                            <h3 class="text-[#034833] text-xl">Courtney Henry</h3>
-                            <p class="text-[#727272]">Medical Assistant</p>
-                        </div>
-                        <div class=" border-2 border-[#E3DBD8] rounded-full">
-                            <img class="p-4 bg-transparent" src="icons/.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="w-1/2">
-                    <img class="h-96 w-[350px] rounded-2xl" src="image/wounder.jpg" alt="">
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="flex gap-10 mx-32 justify-center mb-32">
+<section class="mx-5 my-52 sm:mx-10 lg:mx-20 xl:mx-32 mb-10 sm:mb-20 lg:mb-32  section animate">
+    <div class="flex flex-col lg:flex-row items-end gap-5 lg:gap-10 justify-between mb-10">
+        <div>
+            <p class="items-center flex text-[#034833] gap-2 sm:gap-5"><img src="icons/Frame.png" alt="">Supporting Coaching</p>
+            <h1 class="mt-2 text-2xl sm:text-3xl lg:text-4xl text-[#034833] w-full sm:w-[500px]">A Tapestry of Experiences Cultural Encounters</h1>
+        </div>
+        <div class="flex gap-5 sm:gap-10">
+            <img class="p-2 sm:p-4 rounded-full bg-[#83CD20] w-10 sm:w-12" src="icons/arrow-left-2.png" alt="">
+            <img class="bg-transparent bg-[#C8C8C8] p-2 sm:p-4 rounded-full w-10 sm:w-12" src="icons/.png" alt="">
+        </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-14">
+        <div class="relative">
+            <img class="w-full sm:w-[300px] lg:w-[350px] rounded-2xl" src="image/Coaching.jpg" alt="">
+            <div class="flex gap-5 bg-white p-5 rounded-2xl rounded-tr-none absolute top-[50%] left-5 transform -translate-y-1/2 w-full sm:w-[300px] lg:w-[350px]">
                 <div>
-                    <img class="h-[420] w-[350px] rounded-2xl" src="image/wounder.jpg" alt="">
+                    <h3 class="text-lg sm:text-xl text-[#034833]">TOFEL Coaching</h3>
+                    <p class="text-gray-600 font-light">There are many variations of passages of engineering.</p>
                 </div>
-                <div class="bg-[#83CD20] p-14 text-white w-1/2 rounded-2xl">
-                    <img class="mb-5" src="icons/Frame2.png" alt="">
-                    <p class="font-light mb-5">We have been operating for over an providin top-notch services to our clients and build strong track record in the industry.We have been operating for over a decad providi ina top-notch  We have been operating</p>
-                    <div class="flex gap-5 items-center mb-5">
-                        <div>
-                            <img src="icons/Logo.png" alt="">
-                        </div>
-                        <div>
-                            <h3>Albert Flores</h3>
-                            <p class="font-light">Web Designer</p>
-                        </div>
-                    </div>
-                    <div class="flex items-center gap-5">
-                        <div class="1/2">
-                            <hr class="border-[1px] w-60">
-                        </div>
-                        <div class="flex gap-8 w-1/2">
-                            <img class="p-4 rounded-full bg-white" src="icons/arrow-left3.png" alt="">
-                            <img class="p-4 rounded-full bg-white" src="icons/.png" alt="">
-                        </div>
+                <div>
+                    <div class="p-3 sm:p-5 border-2 border-slate-500 rounded-2xl h-14 w-14">
+                        <img src="icons/something.png" alt="">
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="px-32 mx-10 rounded-2xl py-20 bg-white bg-cover mb-32" style="background-image: url('image/Vector\ \(1\).jpg');">
-            <div class="mb-20 text-center  flex flex-col items-center">
-                <p class="items-center flex text-[#034833] gap-5"><img src="icons/Frame.png" alt="">Process Overview</p>
-                <h1 class="text-4xl mt-3 w-[500px] text-[#034833] font-bold">Unforgettable Getaways Escaping Routine </h1>
-            </div>
-            <div class="grid grid-cols-3 gap-5">
-                <div class="text-[#034833] p-10 bg-white rounded-2xl shadow shadow-lg">
-                    <img src="icons/01.png" alt="">
-                    <h3 class="text-xl mt-5 mb-3">Visa Voyage Agency</h3>
-                    <p class="font-light">Lorem Ipsum is simply dummy text the printing and typeser</p>
+        </div>
+        <div class="relative">
+            <img class="w-full sm:w-[300px] lg:w-[350px] rounded-2xl" src="image/Coaching.jpg" alt="">
+            <div class="flex gap-5 bg-white p-5 rounded-2xl rounded-tr-none absolute top-[50%] left-5 transform -translate-y-1/2 w-full sm:w-[300px] lg:w-[350px]">
+                <div>
+                    <h3 class="text-lg sm:text-xl text-[#034833]">TOFEL Coaching</h3>
+                    <p class="text-gray-600 font-light">There are many variations of passages of engineering.</p>
                 </div>
-                <div class="text-[#034833] p-10 bg-white rounded-2xl shadow shadow-lg mt-5">
-                    <img src="icons/02.png" alt="">
-                    <h3 class="text-xl mt-5 mb-3">Visa Voyage Agency</h3>
-                    <p class="font-light">Lorem Ipsum is simply dummy text the printing and typeser</p>
-                </div>
-                <div class="text-[#034833] p-10 bg-white rounded-2xl shadow shadow-lg">
-                    <img src="icons/03.png" alt="">
-                    <h3 class="text-xl mt-5 mb-3">Visa Voyage Agency</h3>
-                    <p class="font-light">Lorem Ipsum is simply dummy text the printing and typeser</p>
+                <div>
+                    <div class="p-3 sm:p-5 border-2 border-slate-500 rounded-2xl h-14 w-14">
+                        <img src="icons/something.png" alt="">
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="relative">
+            <img class="w-full sm:w-[300px] lg:w-[350px] rounded-2xl" src="image/Coaching.jpg" alt="">
+            <div class="flex gap-5 bg-white p-5 rounded-2xl rounded-tr-none absolute top-[50%] left-5 transform -translate-y-1/2 w-full sm:w-[300px] lg:w-[350px]">
+                <div>
+                    <h3 class="text-lg sm:text-xl text-[#034833]">TOFEL Coaching</h3>
+                    <p class="text-gray-600 font-light">There are many variations of passages of engineering.</p>
+                </div>
+                <div>
+                    <div class="p-3 sm:p-5 border-2 border-slate-500 rounded-2xl h-14 w-14">
+                        <img src="icons/something.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="px-5 sm:px-10 lg:px-20 xl:px-32 py-10 sm:py-16 lg:py-20 mx-5 sm:mx-10 lg:mx-20 mb-10 sm:mb-20 lg:mb-32 rounded-2xl bg-cover  section animate" style="background-image: url('image/Vector.png');">
+    <div class="mb-10 sm:mb-16 lg:mb-20">
+        <p class="items-center flex text-[#034833] gap-2 sm:gap-5"><img src="icons/Frame.png" alt="">Our Coaching</p>
+        <h1 class="text-2xl sm:text-3xl lg:text-4xl mt-2 sm:mt-3 w-full sm:w-[500px] text-[#034833] font-bold">Exploring the Unknown Voyages of Wonder</h1>
+    </div>
+    <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-20">
+        <div class="w-full lg:w-1/2">
+            <div class="border-[#E3DBD8] border-2 flex items-center justify-between rounded-2xl p-5 sm:p-8 mb-5 sm:mb-8">
+                <div>
+                    <h3 class="text-lg sm:text-xl text-[#034833]">Courtney Henry</h3>
+                    <p class="text-[#727272]">Medical Assistant</p>
+                </div>
+                <div>
+                    <img class="p-2 sm:p-4 rounded-full bg-[#83CD20] w-8 sm:w-10" src="icons/arrow.png" alt="">
+                </div>
+            </div>
+
+            <div class="border-[#E3DBD8] border-2 flex items-center justify-between rounded-2xl p-5 sm:p-8 mb-5 sm:mb-8">
+                <div>
+                    <h3 class="text-lg sm:text-xl text-[#034833]">Courtney Henry</h3>
+                    <p class="text-[#727272]">Medical Assistant</p>
+                </div>
+                <div class="border-2 border-[#E3DBD8] rounded-full">
+                    <img class="p-2 sm:p-4 bg-transparent w-8 sm:w-10" src="icons/.png" alt="">
+                </div>
+            </div>
+
+            <div class="border-[#E3DBD8] border-2 flex items-center justify-between rounded-2xl p-5 sm:p-8">
+                <div>
+                    <h3 class="text-lg sm:text-xl text-[#034833]">Courtney Henry</h3>
+                    <p class="text-[#727272]">Medical Assistant</p>
+                </div>
+                <div class="border-2 border-[#E3DBD8] rounded-full">
+                    <img class="p-2 sm:p-4 bg-transparent w-8 sm:w-10" src="icons/.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="w-full lg:w-1/2">
+            <img class="w-full h-72 sm:h-80 lg:h-96 rounded-2xl object-cover" src="image/wounder.jpg" alt="">
+        </div>
+    </div>
+</section>
+<section class=" section animate">
+    <div class="flex flex-col lg:flex-row sm:my-52 mx-4 lg:mx-32 items-center justify-center mb-32">
+        <div class="flex-1">
+            <img class="h-[420px] w-[350px] rounded-2xl" src="image/wounder.jpg" alt="">
+        </div>
+        <div class="bg-[#83CD20] p-14 text-white flex-1 rounded-2xl lg:mt-2 mt-10">
+            <img class="mb-5" src="icons/Frame2.png" alt="">
+            <p class="font-light mb-5">
+                We have been operating for over a decade, providing top-notch services to our clients and building a strong track record in the industry.
+            </p>
+            <div class="flex gap-5 items-center mb-5">
+                <div>
+                    <img src="icons/Logo.png" alt="">
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold">Albert Flores</h3>
+                    <p class="font-light">Web Designer</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-5 justify-center">
+                <div class="flex-1">
+                    <hr class="border-[1px] w-60 mx-auto">
+                </div>
+                <div class="flex gap-8">
+                    <img class="p-4 rounded-full bg-white" src="icons/arrow-left3.png" alt="">
+                    <img class="p-4 rounded-full bg-white" src="icons/.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="px-4 lg:px-32 mx-auto rounded-2xl py-20 bg-white bg-cover mb-32  section animate" style="background-image: url('/image/Vector.png');">
+            <div class="text-center mb-20">
+                <p class="flex items-center justify-center text-[#034833] gap-2">
+                    <img src="icons/Frame.png" alt="">Process Overview
+                </p>
+                <h1 class="text-4xl mt-3 text-[#034833] font-bold max-w-[500px] mx-auto">
+                    Unforgettable Getaways Escaping Routine
+                </h1>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="text-[#034833] p-10 bg-white rounded-2xl shadow-lg">
+                    <img src="icons/01.png" alt="" class="mx-auto">
+                    <h3 class="text-xl mt-5 mb-3 text-center">Visa Voyage Agency</h3>
+                    <p class="font-light text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="text-[#034833] p-10 bg-white rounded-2xl shadow-lg">
+                    <img src="icons/02.png" alt="" class="mx-auto">
+                    <h3 class="text-xl mt-5 mb-3 text-center">Visa Voyage Agency</h3>
+                    <p class="font-light text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="text-[#034833] p-10 bg-white rounded-2xl shadow-lg">
+                    <img src="icons/03.png" alt="" class="mx-auto">
+                    <h3 class="text-xl mt-5 mb-3 text-center">Visa Voyage Agency</h3>
+                    <p class="font-light text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
         </section>
-        <section class="m-32">
+        
+        <section class="px-10 lg:mx-32 my-52 lg:my-20 mx-10 lg:mx-20 lg:mb-32  section animate">
             <div class="flex items-end gap-10 justify-between mb-20">
                 <div>
-                    <p class="items-center flex text-[#034833] gap-5"><img src="icons/Frame.png" alt="">Recent Blogs</p>
-                    <h1 class="mt-2 text-4xl text-[#034833] w-[500px]">Journeys of Discovery Uncovering Hidden</h1>
+                    <p class="flex items-center text-[#034833] gap-2">
+                        <img src="icons/Frame.png" alt="Blog icon">Recent Blogs
+                    </p>
+                    <h1 class="mt-2 text-4xl text-[#034833] w-full max-w-[500px]">
+                        Journeys of Discovery Uncovering Hidden
+                    </h1>
                 </div>
-                <div class="flex gap-10">
-                    <img class="p-4 rounded-full bg-[#83CD20]" src="icons/arrow-left-2.png" alt="">
-                    <img class="bg-transparent bg-[#C8C8C8] p-4 rounded-full" src="icons/.png" alt="">
+                <div class="flex gap-4">
+                    <img class="p-4 rounded-full bg-[#C8C8C8]" src="icons/arrow-left3.png" alt="">
+                    <img class="p-4 rounded-full bg-[#83CD20]" src="icons/arrow.png" alt="">
                 </div> 
             </div>
-            <div>
-                <div>
-                    <img class="w-[400px] h-[336px] rounded-t-2xl" src="image/adventerue.jpg" alt="">
+            
+            <!-- Grid for Blog Posts -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+                <!-- Blog Post 1 -->
+                <div class="flex flex-col items-center w-full max-w-[400px]">
+                    <img class="w-full h-[336px] rounded-t-2xl object-cover" src="image/adventerue.jpg" alt="Adventure Blog Image">
+                    <div class="p-8 border-2 border-[#b4b4b3] rounded-b-2xl">
+                        <div class="flex gap-4 mb-4">
+                            <p class="flex items-center gap-2 text-sm">
+                                <img src="icons/icon.png" alt="Date icon">October 19, 2022
+                            </p>
+                            <p class="flex items-center gap-2 text-sm">
+                                <img src="icons/user.png" alt="User icon">By admin
+                            </p>
+                        </div>
+                        <h3 class="text-2xl text-[#034833] mb-3">
+                            World of Wander Discovering Diverse Landscapes
+                        </h3>
+                        <p class="text-[#727272] mb-5">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <button class="flex items-center gap-2 text-[#034833] font-semibold">
+                            Read More <img src="icons/.png" alt="">
+                        </button>
+                    </div>
                 </div>
-                <div>
-                    
+                
+                <!-- Blog Post 2 -->
+                <div class="flex flex-col items-center w-full max-w-[400px]">
+                    <img class="w-full h-[336px] rounded-t-2xl object-cover" src="image/adventerue.jpg" alt="Adventure Blog Image">
+                    <div class="p-8 border-2 border-[#b4b4b3] rounded-b-2xl">
+                        <div class="flex gap-4 mb-4">
+                            <p class="flex items-center gap-2 text-sm">
+                                <img src="icons/icon.png" alt="Date icon">October 19, 2022
+                            </p>
+                            <p class="flex items-center gap-2 text-sm">
+                                <img src="icons/user.png" alt="User icon">By admin
+                            </p>
+                        </div>
+                        <h3 class="text-2xl text-[#034833] mb-3">
+                            World of Wander Discovering Diverse Landscapes
+                        </h3>
+                        <p class="text-[#727272] mb-5">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <button class="flex items-center gap-2 text-[#034833] font-semibold">
+                            Read More <img src="icons/.png" alt="">
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Blog Post 3 -->
+                <div class="flex flex-col items-center w-full max-w-[400px]">
+                    <img class="w-full h-[336px] rounded-t-2xl object-cover" src="image/adventerue.jpg" alt="Adventure Blog Image">
+                    <div class="p-8 border-2 border-[#b4b4b3] rounded-b-2xl">
+                        <div class="flex gap-4 mb-4">
+                            <p class="flex items-center gap-2 text-sm">
+                                <img src="icons/icon.png" alt="Date icon">October 19, 2022
+                            </p>
+                            <p class="flex items-center gap-2 text-sm">
+                                <img src="icons/user.png" alt="User icon">By admin
+                            </p>
+                        </div>
+                        <h3 class="text-2xl text-[#034833] mb-3">
+                            World of Wander Discovering Diverse Landscapes
+                        </h3>
+                        <p class="text-[#727272] mb-5">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <button class="flex items-center gap-2 text-[#034833] font-semibold">
+                            Read More <img src="icons/.png" alt="">
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer class="bg-[#034833] py-10 text-white" style="background-image: url('image/Картинка.png');">
+        <div class="px-28 mb-8 flex justify-between items-center">
+            <div class="flex items-center gap-5">
+                <button class="bg-[#83CD20] p-5 rounded-full"><img src="icons/010-currency.png" alt=""></button>
+                <h3 class="text-2xl font-semibold w-72">Need any support for tour and visa?</h3>
+            </div>
+            <div class="h-24 border border-1 border-gray-300"></div>
+            <div class="flex items-center gap-5">
+                <button class="bg-[#83CD20] p-5 rounded-full"><img src="icons/010-currency.png" alt=""></button>
+                <h3 class="text-2xl font-semibold w-72">Need any support for tour and visa?</h3>
+            </div>
+            
+        </div>
+        <hr>
+        <div class="px-20 mb-10 grid grid-cols-4 pt-16">
+            <div>
+                <h3 class="flex items-center text-xl text-white gap-2 mb-8"><img src="icons/logo-green.png" alt=""> RouteX</h3>
+                <p class="font-light">Corporate business typically refers to large-scale mansola it enterprises or organizat</p>
+                <div class="flex gap-4 mt-8">
+                    <img src="icons/facebook.png" alt="">
+                    <img src="icons/instagram.png" alt="">
+                    <img src="icons/somthing.png" alt="">
+                    <img src="icons/in.png" alt="">
+                </div>
+            </div>
+            <div class="mx-16">
+                <h3 class="text-xl mb-8">Services</h3>
+                <ul class="font-light">
+                    <li class="flex mb-2 items-center gap-2"><img src="icons/check.png" alt=""> Mistakes To Avoid</li>
+                    <li class="flex mb-2 items-center gap-2"><img src="icons/check.png" alt=""> Your Startup</li>
+                    <li class="flex mb-2 items-center gap-2"><img src="icons/check.png" alt=""> Knew About Fonts</li>
+                    <li class="flex mb-2 items-center gap-2"><img src="icons/check.png" alt=""> Knew About Fonts</li>
+                </ul>
+            </div>
+            <div class="ml-10">
+                <h3 class="text-xl mb-8">Useful Link</h3>
+                <ul class="font-light">
+                    <li class="flex mb-2 items-center gap-2"><img src="icons/sideways-tic.png" alt=""> Latest News</li>
+                    <li class="flex mb-2 items-center gap-2"><img src="icons/sideways-tic.png" alt=""> Careers</li>
+                    <li class="flex mb-2 items-center gap-2"><img src="icons/sideways-tic.png" alt=""> General Inquiries</li>
+                    <li class="flex mb-2 items-center gap-2"><img src="icons/sideways-tic.png" alt=""> Case Studies</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl mb-8">Subscribe Our Newsletter</h3>
+                <p class="font-light mb-5">Corporate business typically refers to large-scale mansola it.</p>
+                <div class="flex items-center justify-center">
+                    <input 
+                      type="email" 
+                      placeholder="Enter Email" 
+                      class="bg-black text-white placeholder-gray-400 py-3 px-5 rounded-full w-64 outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+    
+                    <button class="ml-2 bg-[#83CD20] rounded-full p-4 hover:bg-green-600 transition duration-300 ease-in-out">
+                        <img src="icons/airplain.png" alt="">
+                    </button>
+                  </div>
+            </div>
+        </div>
+        <hr>
+        <div class="flex items-center justify-between px-20 mt-5 text-white">
+            <p class="font-light">© Yoursitename  2024 | All Rights Reserved</p>
+            <div class="flex gap-5 font-light">
+                <p>Trams & Condition</p>
+                <p>Privacy Policy</p>
+                <p>Contact Us</p>
+            </div>
+        </div>
+    </footer>
+    <script src="animation.js"></script>
 </body>
 </html>
