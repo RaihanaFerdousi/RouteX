@@ -19,8 +19,6 @@ const ProcessOverview = () => {
             Unforgettable Getaways Escaping Routine
           </h1>
         </div>
-
-        {/* Responsive Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           <div className="text-[#034833] p-6 lg:p-10 bg-white rounded-2xl shadow-lg">
             <img src={Icon1} alt="Icon 1" className="mx-auto" />

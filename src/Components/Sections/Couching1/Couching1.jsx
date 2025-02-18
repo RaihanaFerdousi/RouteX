@@ -1,14 +1,13 @@
 import CoachingImage from "../../../assets/image/Coaching.jpg";
 import FrameIcon from "../../../assets/icons/Frame.png";
 import ArrowLeftIcon from "../../../assets/icons/arrow-left-2.png";
-import FolderIcon from "../../../assets/icons/.png"; // Assuming this is the correct icon
+import FolderIcon from "../../../assets/icons/.png";
 import SomethingIcon from "../../../assets/icons/something.png";
 
 const Couching1 = () => {
     return (
       <div className="bg-gray-100 rounded-2xl py-20">
         <section className="container mx-auto px-5 sm:px-10 lg:px-20">
-          {/* Header Section */}
           <div className="flex flex-col lg:flex-row items-end gap-5 lg:gap-20 justify-between mb-10">
             <div>
               <p className="flex items-center text-[#034833] gap-2 sm:gap-5">
@@ -33,20 +32,17 @@ const Couching1 = () => {
             </div>
           </div>
   
-          {/* Coaching Cards */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-14">
             {[1, 2, 3].map((_, index) => (
               <div
                 key={index}
-                className="relative shadow-lg rounded-2xl hover:shadow-xl transition-shadow"
+                className="relative rounded-2xl"
               >
-                {/* Coaching Image */}
                 <img
                   className="w-full sm:w-[300px] lg:w-[350px] rounded-2xl object-cover"
                   src={CoachingImage}
                   alt="Coaching"
                 />
-                {/* Coaching Info Overlay */}
                 <div className="flex gap-5 bg-white p-5 rounded-2xl rounded-tr-none absolute bottom-5 left-1/2 transform -translate-x-1/2 w-[90%] sm:w-[300px] lg:w-[350px]">
                   <div>
                     <h3 className="text-lg sm:text-xl font-semibold text-[#034833]">

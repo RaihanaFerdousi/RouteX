@@ -45,7 +45,6 @@ const ContactUs = () => {
               </div>
             </div>
 
-            {/* Statistics Section */}
             <div className="bg-[#83CD20] text-white grid sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10 p-8 sm:p-14 rounded-2xl">
               {[
                 { value: "10k+", label: "Complete Projects" },

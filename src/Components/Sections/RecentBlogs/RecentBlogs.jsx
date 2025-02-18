@@ -33,7 +33,6 @@ const RecentBlogs = () => {
           </div>
         </div>
 
-        {/* Grid for Blog Posts */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           <div className="flex flex-col items-center border-2 w-[380px] border-[#b4b4b3] rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out transform hover:scale-105">
             <img
